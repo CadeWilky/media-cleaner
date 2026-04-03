@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function ReviewScreen() {
+export default function TrashScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Review</Text>
-      <Text style={styles.sub}>Swipe cards will appear here.</Text>
+      <Text style={styles.title}>Trash</Text>
+      <Text style={styles.sub}>Soft-deleted items (30-day recovery) will appear here.</Text>
     </View>
   );
 }

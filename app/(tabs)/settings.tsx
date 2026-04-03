@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function ReviewScreen() {
+export default function SettingsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Review</Text>
-      <Text style={styles.sub}>Swipe cards will appear here.</Text>
+      <Text style={styles.title}>Settings</Text>
+      <Text style={styles.sub}>Dropbox connection and app preferences will appear here.</Text>
     </View>
   );
 }

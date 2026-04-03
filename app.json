@@ -38,6 +38,15 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      "expo-secure-store",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Media Cleaner needs access to your photo library so you can review and organize your photos.",
+          "savePhotosPermission": "Media Cleaner needs this to remove duplicate photos after you confirm.",
+          "isAccessMediaLocationEnabled": true
+        }
       ]
     ],
     "experiments": {
